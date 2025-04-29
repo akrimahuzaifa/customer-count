@@ -11,7 +11,7 @@ from PIL import UnidentifiedImageError
 IMAGE_DIR = "cctv_images"
 THRESHOLD = 0.6
 MODEL = "hog"  # Faster CPU model
-NUM_PROCESSES = 8  # Match your 8 logical cores
+NUM_PROCESSES = os.cpu_count()  # Match your 8 logical cores
 BATCH_SIZE = 50  # Images per process
 EMPLOYEE_ENCODINGS_PATH = "employee_encodings.pkl"  # Create this file first
 
