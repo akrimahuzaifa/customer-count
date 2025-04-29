@@ -1,0 +1,17 @@
+I have multiple images from every 2 minutes throughout the day from a CCTV camera that are installed in my stores at different locations. I want to count the customers who came into the store during the day with the help of these images. Let's say I want to count the unique faces throughout the images, counting the same person appearing in multiple images as one
+I have images from different locations in the same folder, the files name are like below:
+109 Missoula southgate_109 Sales Counter_main_20250404143123.jpg
+118 Falls West_118 Front C2_main_20250404091701.jpg
+
+In these files name before the first under score in the name string, is the location name. e.g: 109 Missoula southgate and 118 Falls West
+I am telling you this as we will be preparing Excel records with the unique person count based on the location like this:
+Location	                                Customer Count in Images
+109 Missoula southgate				3
+
+I have attached the sample pictures of one location. The first 2 pictures are the taken one after another with a gap of 2 min, they consists of one employee who is behind the computer screen and the other two that are on the other side of the counter table are customers. But in the 3rd and 4th are the taken one after another with a gap of 2 min as well but at a different time stamp, in these images there are two employees behind the screen assisting one customer.
+But that will not be the case every time, the customer and and employee can wander in the store may not face the camera in all pictures. In some pictures they might be showing their back, or side face etc.
+
+To keep it simple as for the first milestone is that i want to count number of unique faces/person appear in the pictures while processing the pictures and unique person count based on per location.
+
+For Now we are doing it manually like a person in my office is dedicated to this task who sees the image one by one out of more than 3 thousands images from 8 different store locations and count the customers, location wise and prepare the excel sheet.
+I am a software developer, so I can use Python to achieve this. Please guide me to accomplish this. Thank you! 
